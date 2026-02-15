@@ -1,0 +1,35 @@
+proxies:
+  - name: MobaXterm
+    type: socks5
+    server: 127.0.0.1
+    port: 8082
+
+
+rules:
+  # 你的显式直连
+  # - DOMAIN-SUFFIX,haisong.me,DIRECT
+  # - GEOIP,PRIVATE,DIRECT,no-resolve
+
+  # 指定需走代理的域名
+  - DOMAIN-SUFFIX,ip.cn,MobaXterm
+
+  - DOMAIN-SUFFIX,tacnode.us,DIRECT
+
+  # 常见视频/音乐 CDN 直连
+  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+  - DOMAIN-SUFFIX,71edge.com,DIRECT
+  - DOMAIN-SUFFIX,music.126.net,DIRECT
+  - DOMAIN-SUFFIX,webrtcpunch.video.qq.com,DIRECT
+
+  # 仅对特定“版权类中国站”走代理（不启用全局 CN 规则）
+  - GEOSITE,zhihu,MobaXterm
+  - GEOSITE,netease,MobaXterm
+  - GEOSITE,iqiyi,MobaXterm
+  - GEOSITE,tencent,MobaXterm
+
+  # 兜底
+  # - MATCH,MobaXterm
+  # - MATCH,DIRECT
+  #  
+  #  # UDP 全直连
+  #  - NETWORK,UDP,DIRECT
