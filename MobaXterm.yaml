@@ -7,19 +7,18 @@ proxies:
 
 rules:
   # 你的显式直连
-  # - DOMAIN-SUFFIX,haisong.me,DIRECT
   # - GEOIP,PRIVATE,DIRECT,no-resolve
 
   # 指定需走代理的域名
   - DOMAIN-SUFFIX,ip.cn,MobaXterm
-
-  - DOMAIN-SUFFIX,tacnode.us,DIRECT
-
   # 常见视频/音乐 CDN 直连
-  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+  - GEOSITE,bilibili-cdn,DIRECT
   - DOMAIN-SUFFIX,71edge.com,DIRECT
   - DOMAIN-SUFFIX,music.126.net,DIRECT
   - DOMAIN-SUFFIX,webrtcpunch.video.qq.com,DIRECT
+  - DOMAIN-SUFFIX,kcdnvip.com,DIRECT
+  - DOMAIN-SUFFIX,qvb.qcloud.com,DIRECT
+  - DOMAIN-SUFFIX,cctvpic.com,DIRECT
 
   # 仅对特定“版权类中国站”走代理（不启用全局 CN 规则）
   - GEOSITE,zhihu,MobaXterm
@@ -27,6 +26,7 @@ rules:
   - GEOSITE,iqiyi,MobaXterm
   - GEOSITE,tencent,MobaXterm
   - GEOSITE,bilibili,MobaXterm
+  - GEOSITE,cctv,MobaXterm
 
   # 兜底
   # - MATCH,MobaXterm
