@@ -14,6 +14,7 @@ rules:
   # 常见视频/音乐 CDN 直连
   - GEOSITE,bilibili-cdn,DIRECT
   - DOMAIN-SUFFIX,71edge.com,DIRECT
+  - DOMAIN-SUFFIX,iqiyipic.com,DIRECT
   - DOMAIN-SUFFIX,music.126.net,DIRECT
   - DOMAIN-SUFFIX,webrtcpunch.video.qq.com,DIRECT
   - DOMAIN-SUFFIX,kcdnvip.com,DIRECT
