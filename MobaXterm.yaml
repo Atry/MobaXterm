@@ -26,6 +26,7 @@ rules:
   - GEOSITE,netease,MobaXterm
   - GEOSITE,iqiyi,MobaXterm
   - GEOSITE,tencent,MobaXterm
+  - GEOSITE,bilibili,MobaXterm
 
   # 兜底
   # - MATCH,MobaXterm
