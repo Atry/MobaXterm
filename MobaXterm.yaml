@@ -11,6 +11,10 @@ rules:
 
   # 指定需走代理的域名
   - DOMAIN-SUFFIX,ip.cn,MobaXterm
+
+  # m3u8 files
+  - DOMAIN-SUFFIX,v.kcdnvip.com,MobaXterm
+
   # 常见视频/音乐 CDN 直连
   - GEOSITE,bilibili-cdn,DIRECT
   - DOMAIN-SUFFIX,71edge.com,DIRECT
