@@ -14,6 +14,7 @@ rules:
 
   # m3u8 files
   - DOMAIN-SUFFIX,v.kcdnvip.com,MobaXterm
+  - DOMAIN-SUFFIX,conf.qvb.qcloud.com,MobaXterm
 
   # 常见视频/音乐 CDN 直连
   - GEOSITE,bilibili-cdn,DIRECT
