@@ -27,6 +27,7 @@ rules:
   - DOMAIN-SUFFIX,cctvpic.com,DIRECT
   - DOMAIN-SUFFIX,myqcloud.com,DIRECT
   - DOMAIN-SUFFIX,cbs-img.sports.cctv.com,DIRECT
+  - DOMAIN-SUFFIX,zhimg.com,DIRECT
 
   # 仅对特定“版权类中国站”走代理（不启用全局 CN 规则）
   - GEOSITE,zhihu,MobaXterm
