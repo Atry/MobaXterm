@@ -37,6 +37,8 @@ rules:
   - GEOSITE,tencent,MobaXterm
   - GEOSITE,bilibili,MobaXterm
   - GEOSITE,cctv,MobaXterm
+  - GEOSITE,taobao,MobaXterm
+  - GEOSITE,tmall,MobaXterm
   # - GEOSITE,category-ai-cn,MobaXterm
 
   # 兜底
