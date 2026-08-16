@@ -37,11 +37,6 @@ rules:
   - GEOSITE,tencent,MobaXterm
   - GEOSITE,bilibili,MobaXterm
   - GEOSITE,cctv,MobaXterm
-  # 淘宝/天猫（geosite 无 taobao、tmall 分类，只有涵盖整个阿里系的 alibaba）
-  - DOMAIN-SUFFIX,taobao.com,MobaXterm
-  - DOMAIN-SUFFIX,tmall.com,MobaXterm
-  - DOMAIN-SUFFIX,tmall.hk,MobaXterm
-  - DOMAIN-SUFFIX,tb.cn,MobaXterm
 
   # 京东（geosite 的 jd 分类含整套京东云 CDN，范围过宽）
   - DOMAIN-SUFFIX,jd.com,MobaXterm
