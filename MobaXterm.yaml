@@ -42,6 +42,12 @@ rules:
   - DOMAIN-SUFFIX,tmall.com,MobaXterm
   - DOMAIN-SUFFIX,tmall.hk,MobaXterm
   - DOMAIN-SUFFIX,tb.cn,MobaXterm
+
+  # 京东（geosite 的 jd 分类含整套京东云 CDN，范围过宽）
+  - DOMAIN-SUFFIX,jd.com,MobaXterm
+  - DOMAIN-SUFFIX,jd.hk,MobaXterm
+  - DOMAIN-SUFFIX,jd.cn,MobaXterm
+  - DOMAIN-SUFFIX,360buy.com,MobaXterm
   # - GEOSITE,category-ai-cn,MobaXterm
 
   # 兜底
